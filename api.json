@@ -1,0 +1,1353 @@
+{
+  "uuid": "91ac9e99-36a0-4fab-8afb-c7a7ca82015a",
+  "lastMigration": 28,
+  "name": "Demo API",
+  "endpointPrefix": "api/v1",
+  "latency": 0,
+  "port": 8080,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "0cbd4a49-7054-48f7-820b-e1f4d915ce31",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "standings",
+      "responses": [
+        {
+          "uuid": "577dd574-4d5f-4ac5-8635-45cf6cddde63",
+          "body": "[\r\n  {\r\n    \"name\": \"F.K. Nikola Tesla Chicago\",\r\n    \"city\": \"Chicago\",\r\n    \"founded\": \"2020\",\r\n    \"imageUrl\": \"fk-nikola-tesla-logo.png\",\r\n    \"short\": \"FKNT\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      }\r\n    ],\r\n    \"matchesWon\": 3,\r\n    \"matchesDrawn\": 2,\r\n    \"matchesLost\": 1,\r\n    \"goalsFor\": 4,\r\n    \"goalsAgainst\": 5,\r\n    \"points\": 6,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 21,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 6\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 19,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"DEFENDER\",\r\n          \"number\": 15\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 18,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"MIDFIELDER\",\r\n          \"number\": 11\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"B.H. Ljiljan S.C.\",\r\n    \"city\": \"Chicago\",\r\n    \"founded\": \"2017\",\r\n    \"imageUrl\": \"b.h.-ljiljan-sc.png\",\r\n    \"short\": \"BiH\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      }\r\n    ],\r\n    \"matchesWon\": 3,\r\n    \"matchesDrawn\": 1,\r\n    \"matchesLost\": 2,\r\n    \"goalsFor\": 5,\r\n    \"goalsAgainst\": 2,\r\n    \"points\": 3,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"SC Hammers\",\r\n    \"city\": \"Chicago\",\r\n    \"instagram\": \"https://www.instagram.com/hammers_soccer_club/?igshid=MTg0ZDhmNDA%3D\",\r\n    \"facebook\": \"https://www.facebook.com/hammerssoccerclub/\",\r\n    \"founded\": \"string\",\r\n    \"imageUrl\": \"sc-hammers.png\",\r\n    \"short\": \"SCH\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      }\r\n    ],\r\n    \"matchesWon\": 2,\r\n    \"matchesDrawn\": 3,\r\n    \"matchesLost\": 1,\r\n    \"goalsFor\": 3,\r\n    \"goalsAgainst\": 4,\r\n    \"points\": 3,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"Wisloka Chicago\",\r\n    \"city\": \"Chicago\",\r\n    \"instagram\": \"https://www.instagram.com/wislokachicago/?hl=en\",\r\n    \"facebook\": \"https://www.facebook.com/WislokaChicago/\",\r\n    \"founded\": \"2018\",\r\n    \"imageUrl\": \"wisloka.png\",\r\n    \"short\": \"WIS\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      }\r\n    ],\r\n    \"matchesWon\": 2,\r\n    \"matchesDrawn\": 2,\r\n    \"matchesLost\": 2,\r\n    \"goalsFor\": 3,\r\n    \"goalsAgainst\": 5,\r\n    \"points\": 3,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"FK Republika Srpska\",\r\n    \"city\": \"Chicago\",\r\n    \"instagram\": \"https://www.instagram.com/fkrepsrpska/?igshid=YmMyMTA2M2Y%3D\",\r\n    \"facebook\": \"https://www.facebook.com/fkrepublikasrpskachicago/\",\r\n    \"founded\": \"2003\",\r\n    \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\",\r\n    \"short\": \"FKRS\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      }\r\n    ],\r\n    \"matchesWon\": 2,\r\n    \"matchesDrawn\": 1,\r\n    \"matchesLost\": 3,\r\n    \"goalsFor\": 3,\r\n    \"goalsAgainst\": 7,\r\n    \"points\": 2,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"LionEight\",\r\n    \"city\": \"McCook\",\r\n    \"founded\": \"2013\",\r\n    \"imageUrl\": \"lioneight-logo.png\",\r\n    \"short\": \"LE\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      }\r\n    ],\r\n    \"matchesWon\": 1,\r\n    \"matchesDrawn\": 4,\r\n    \"matchesLost\": 1,\r\n    \"goalsFor\": 4,\r\n    \"goalsAgainst\": 5,\r\n    \"points\": 1,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"Grasshoppers\",\r\n    \"city\": \"Chicago\",\r\n    \"founded\": \"2016\",\r\n    \"imageUrl\": \"grasshoppers-logo.png\",\r\n    \"short\": \"GH\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      }\r\n    ],\r\n    \"matchesWon\": 1,\r\n    \"matchesDrawn\": 4,\r\n    \"matchesLost\": 1,\r\n    \"goalsFor\": 4,\r\n    \"goalsAgainst\": 6,\r\n    \"points\": 1,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"F.C. C1 United\",\r\n    \"city\": \"Chicago\",\r\n    \"instagram\": \"https://www.instagram.com/c1united/?igshid=YmMyMTA2M2Y%3D\",\r\n    \"founded\": \"2016\",\r\n    \"imageUrl\": \"C1-LOGO-.png\",\r\n    \"short\": \"C1\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      }\r\n    ],\r\n    \"matchesWon\": 0,\r\n    \"matchesDrawn\": 4,\r\n    \"matchesLost\": 2,\r\n    \"goalsFor\": 2,\r\n    \"goalsAgainst\": 7,\r\n    \"points\": 1,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"Liths\",\r\n    \"city\": \"Chicago\",\r\n    \"founded\": \"2012\",\r\n    \"imageUrl\": \"liths.png\",\r\n    \"short\": \"LTS\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      },\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": false\r\n      }\r\n    ],\r\n    \"matchesWon\": 0,\r\n    \"matchesDrawn\": 0,\r\n    \"matchesLost\": 6,\r\n    \"goalsFor\": 0,\r\n    \"goalsAgainst\": 7,\r\n    \"points\": 0,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "d310ed49-3740-4756-9beb-18f0a5cf6fd7",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club",
+      "responses": [
+        {
+          "uuid": "5c23a5bf-d5fd-4f8b-b704-4c3341d1e2ff",
+          "body": "[\r\n  {\r\n    \"name\": \"F.K. Nikola Tesla Chicago\",\r\n    \"city\": \"Chicago\",\r\n    \"founded\": \"2020\",\r\n    \"social\": {},\r\n    \"imageUrl\": \"fk-nikola-tesla-logo.png\",\r\n    \"short\": \"FKNT\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      }\r\n    ],\r\n    \"matchesWon\": 1,\r\n    \"matchesDrawn\": 2,\r\n    \"matchesLost\": 3,\r\n    \"goalsFor\": 4,\r\n    \"goalsAgainst\": 5,\r\n    \"points\": 6,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 21,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 6\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 19,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"DEFENDER\",\r\n          \"number\": 15\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 18,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"MIDFIELDER\",\r\n          \"number\": 11\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"B.H. Ljiljan S.C.\",\r\n    \"city\": \"Chicago\",\r\n    \"founded\": \"2017\",\r\n    \"imageUrl\": \"b.h.-ljiljan-sc.png\",\r\n    \"short\": \"BiH\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      }\r\n    ],\r\n    \"matchesWon\": 0,\r\n    \"matchesDrawn\": 0,\r\n    \"matchesLost\": 0,\r\n    \"goalsFor\": 0,\r\n    \"goalsAgainst\": 0,\r\n    \"points\": 0,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"SC Hammers\",\r\n    \"city\": \"Chicago\",\r\n    \"instagram\": \"https://www.instagram.com/hammers_soccer_club/?igshid=MTg0ZDhmNDA%3D\",\r\n    \"facebook\": \"https://www.facebook.com/hammerssoccerclub/\",\r\n    \"founded\": \"string\",\r\n    \"imageUrl\": \"sc-hammers.png\",\r\n    \"short\": \"SCH\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      }\r\n    ],\r\n    \"matchesWon\": 0,\r\n    \"matchesDrawn\": 0,\r\n    \"matchesLost\": 0,\r\n    \"goalsFor\": 0,\r\n    \"goalsAgainst\": 0,\r\n    \"points\": 0,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"Wisloka Chicago\",\r\n    \"city\": \"Chicago\",\r\n    \"instagram\": \"https://www.instagram.com/wislokachicago/?hl=en\",\r\n    \"facebook\": \"https://www.facebook.com/WislokaChicago/\",\r\n    \"founded\": \"2018\",\r\n    \"imageUrl\": \"wisloka.png\",\r\n    \"short\": \"WIS\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      }\r\n    ],\r\n    \"matchesWon\": 0,\r\n    \"matchesDrawn\": 0,\r\n    \"matchesLost\": 0,\r\n    \"goalsFor\": 0,\r\n    \"goalsAgainst\": 0,\r\n    \"points\": 0,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"FK Republika Srpska\",\r\n    \"city\": \"Chicago\",\r\n    \"instagram\": \"https://www.instagram.com/fkrepsrpska/?igshid=YmMyMTA2M2Y%3D\",\r\n    \"facebook\": \"https://www.facebook.com/fkrepublikasrpskachicago/\",\r\n    \"founded\": \"2003\",\r\n    \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\",\r\n    \"short\": \"FKRS\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      }\r\n    ],\r\n    \"matchesWon\": 0,\r\n    \"matchesDrawn\": 0,\r\n    \"matchesLost\": 0,\r\n    \"goalsFor\": 0,\r\n    \"goalsAgainst\": 0,\r\n    \"points\": 0,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"LionEight\",\r\n    \"city\": \"McCook\",\r\n    \"founded\": \"2013\",\r\n    \"imageUrl\": \"lioneight-logo.png\",\r\n    \"short\": \"LE\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      }\r\n    ],\r\n    \"matchesWon\": 0,\r\n    \"matchesDrawn\": 0,\r\n    \"matchesLost\": 0,\r\n    \"goalsFor\": 0,\r\n    \"goalsAgainst\": 0,\r\n    \"points\": 0,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"Grasshoppers\",\r\n    \"city\": \"Chicago\",\r\n    \"founded\": \"2016\",\r\n    \"imageUrl\": \"grasshoppers-logo.png\",\r\n    \"short\": \"GH\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      }\r\n    ],\r\n    \"matchesWon\": 0,\r\n    \"matchesDrawn\": 0,\r\n    \"matchesLost\": 0,\r\n    \"goalsFor\": 0,\r\n    \"goalsAgainst\": 0,\r\n    \"points\": 0,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"F.C. C1 United\",\r\n    \"city\": \"Chicago\",\r\n    \"instagram\": \"https://www.instagram.com/c1united/?igshid=YmMyMTA2M2Y%3D\",\r\n    \"founded\": \"2016\",\r\n    \"imageUrl\": \"C1-LOGO-.png\",\r\n    \"short\": \"GH\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      }\r\n    ],\r\n    \"matchesWon\": 0,\r\n    \"matchesDrawn\": 0,\r\n    \"matchesLost\": 0,\r\n    \"goalsFor\": 0,\r\n    \"goalsAgainst\": 0,\r\n    \"points\": 0,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"name\": \"Liths\",\r\n    \"city\": \"Chicago\",\r\n    \"founded\": \"2012\",\r\n    \"imageUrl\": \"liths.png\",\r\n    \"short\": \"LTS\",\r\n    \"matchesPlayed\": [\r\n      {\r\n        \"name\": \"string\",\r\n        \"hostClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"guestClub\": {\r\n          \"name\": \"string\",\r\n          \"imageUrl\": \"string\"\r\n        },\r\n        \"hostGoals\": 0,\r\n        \"guestGoals\": 0,\r\n        \"date\": \"string\",\r\n        \"field\": \"FIELD_1\",\r\n        \"winner\": true\r\n      }\r\n    ],\r\n    \"matchesWon\": 0,\r\n    \"matchesDrawn\": 0,\r\n    \"matchesLost\": 0,\r\n    \"goalsFor\": 0,\r\n    \"goalsAgainst\": 0,\r\n    \"points\": 0,\r\n    \"squad\": {\r\n      \"additionalProp1\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp2\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ],\r\n      \"additionalProp3\": [\r\n        {\r\n          \"firstName\": \"string\",\r\n          \"lastName\": \"string\",\r\n          \"age\": 0,\r\n          \"imageUrl\": \"string\",\r\n          \"nationality\": \"AFGHAN\",\r\n          \"position\": \"GOALKEEPER\",\r\n          \"number\": 0\r\n        }\r\n      ]\r\n    }\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "7cf43ab7-1254-4812-a043-e209a21c41fb",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "player/David-Filipovic",
+      "responses": [
+        {
+          "uuid": "276ab003-a509-4e1e-8cb1-33df157f60ce",
+          "body": "{\r\n  \"firstName\": \"David\",\r\n  \"lastName\": \"Filipovic\",\r\n  \"age\": 18,\r\n  \"imageUrl\": \"playerImage.png\",\r\n  \"nationality\": \"AFGHAN\",\r\n  \"countryCode\": \"RS\",\r\n  \"position\": \"MIDFIELDER\",\r\n  \"club\": {\r\n    \"name\": \"string\",\r\n    \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n  }\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "fdaf9d57-3fc4-43c6-830c-ea6baf60324c",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "match/match1",
+      "responses": [
+        {
+          "uuid": "1ebeddb2-2230-4df5-9761-a450c2c9c6d1",
+          "body": "{\r\n  \"name\": \"match1\",\r\n  \"hostClub\": {\r\n    \"name\": \"F.K. Nikola Tesla Chicago\",\r\n    \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n  },\r\n  \"guestClub\": {\r\n    \"name\": \"B.H. Ljiljan S.C.\",\r\n    \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n  },\r\n  \"hostGoals\": 4,\r\n  \"guestGoals\": 4,\r\n  \"date\": \"12/06/2023\",\r\n  \"matchWeek\": 1,\r\n  \"halftimeHostGoals\": 1,\r\n  \"halftimeGuestGoals\": 2,\r\n  \"field\": \"FIELD_1\"\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "38fdd653-8c07-4b69-90f4-56eaf14d9133",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "field/FIELD_1",
+      "responses": [
+        {
+          "uuid": "3b6bcdf1-d6d4-4ec4-8fa0-1f9b9b586b3a",
+          "body": "[\r\n  {\r\n    \"name\": \"match1\",\r\n    \"hostClub\": {\r\n      \"name\": \"F.K. Nikola Tesla Chicago\",\r\n      \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"hostGoals\": 4,\r\n    \"guestGoals\": 4,\r\n    \"date\": \"12/06/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 2,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match2\",\r\n    \"hostClub\": {\r\n      \"name\": \"FK Republika Srpska\",\r\n      \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"LionEight\",\r\n      \"imageUrl\": \"lioneight-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 1,\r\n    \"date\": \"01/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match3\",\r\n    \"hostClub\": {\r\n      \"name\": \"Liths\",\r\n      \"imageUrl\": \"liths.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Grasshoppers\",\r\n      \"imageUrl\": \"grasshoppers-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"15/10/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 0,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match4\",\r\n    \"hostClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"F.C. C1 United\",\r\n      \"imageUrl\": \"C1-LOGO-.png\"\r\n    },\r\n    \"hostGoals\": 3,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"09/02/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 2,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match5\",\r\n    \"hostClub\": {\r\n      \"name\": \"SC Hammers\",\r\n      \"imageUrl\": \"sc-hammers.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Wisloka Chicago\",\r\n      \"imageUrl\": \"wisloka.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 2,\r\n    \"date\": \"17/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 1,\r\n    \"field\": \"FIELD_1\"\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "25c61e37-5bcb-4135-a6d6-776e6fa20099",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/week/1",
+      "responses": [
+        {
+          "uuid": "11500dc9-1350-4f83-be07-2d0c47f15d0c",
+          "body": "[\n  {\n    \"name\": \"match6\",\n    \"guestClub\": {\n      \"name\": \"F.K. Nikola Tesla Chicago\",\n      \"imageUrl\": \"fk-nikola-tesla-logo.png\"\n    },\n    \"hostClub\": {\n      \"name\": \"B.H. Ljiljan S.C.\",\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\n    },\n    \"hostGoals\": 3,\n    \"guestGoals\": 2,\n    \"date\": \"02/01/2023\",\n    \"matchWeek\": 1,\n    \"halftimeHostGoals\": 1,\n    \"halftimeGuestGoals\": 1,\n    \"field\": \"FIELD_1\"\n  },\n  {\n    \"name\": \"match7\",\n    \"guestClub\": {\n      \"name\": \"FK Republika Srpska\",\n      \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\n    },\n    \"hostClub\": {\n      \"name\": \"LionEight\",\n      \"imageUrl\": \"lioneight-logo.png\"\n    },\n    \"hostGoals\": 2,\n    \"guestGoals\": 2,\n    \"date\": \"15/02/2023\",\n    \"matchWeek\": 1,\n    \"halftimeHostGoals\": 1,\n    \"halftimeGuestGoals\": 1,\n    \"field\": \"FIELD_1\"\n  },\n  {\n    \"name\": \"match8\",\n    \"guestClub\": {\n      \"name\": \"Liths\",\n      \"imageUrl\": \"liths.png\"\n    },\n    \"hostClub\": {\n      \"name\": \"Grasshoppers\",\n      \"imageUrl\": \"grasshoppers-logo.png\"\n    },\n    \"hostGoals\": 2,\n    \"guestGoals\": 4,\n    \"date\": \"11/12/2023\",\n    \"matchWeek\": 1,\n    \"halftimeHostGoals\": 1,\n    \"halftimeGuestGoals\": 2,\n    \"field\": \"FIELD_1\"\n  },\n  {\n    \"name\": \"match9\",\n    \"guestClub\": {\n      \"name\": \"B.H. Ljiljan S.C.\",\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\n    },\n    \"hostClub\": {\n      \"name\": \"F.C. C1 United\",\n      \"imageUrl\": \"C1-LOGO-.png\"\n    },\n    \"hostGoals\": 1,\n    \"guestGoals\": 1,\n    \"date\": \"16/06/2023\",\n    \"matchWeek\": 1,\n    \"halftimeHostGoals\": 1,\n    \"halftimeGuestGoals\": 1,\n    \"field\": \"FIELD_1\"\n  },\n  {\n    \"name\": \"match10\",\n    \"guestClub\": {\n      \"name\": \"SC Hammers\",\n      \"imageUrl\": \"sc-hammers.png\"\n    },\n    \"hostClub\": {\n      \"name\": \"Wisloka Chicago\",\n      \"imageUrl\": \"wisloka.png\"\n    },\n    \"hostGoals\": 2,\n    \"guestGoals\": 0,\n    \"date\": \"18/04/2023\",\n    \"matchWeek\": 1,\n    \"halftimeHostGoals\": 1,\n    \"halftimeGuestGoals\": 0,\n    \"field\": \"FIELD_1\"\n  }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "33e18956-58ca-4ac4-8d4c-e6ee23b36a5f",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/week/2",
+      "responses": [
+        {
+          "uuid": "4f8df109-6a96-4b5b-9574-524d1dd7a6d0",
+          "body": "[\r\n  {\r\n    \"name\": \"match1\",\r\n    \"hostClub\": {\r\n      \"name\": \"F.K. Nikola Tesla Chicago\",\r\n      \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"hostGoals\": 4,\r\n    \"guestGoals\": 4,\r\n    \"date\": \"12/06/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 2,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match2\",\r\n    \"hostClub\": {\r\n      \"name\": \"FK Republika Srpska\",\r\n      \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"LionEight\",\r\n      \"imageUrl\": \"lioneight-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 1,\r\n    \"date\": \"01/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match3\",\r\n    \"hostClub\": {\r\n      \"name\": \"Liths\",\r\n      \"imageUrl\": \"liths.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Grasshoppers\",\r\n      \"imageUrl\": \"grasshoppers-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"15/10/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 0,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match4\",\r\n    \"hostClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"F.C. C1 United\",\r\n      \"imageUrl\": \"C1-LOGO-.png\"\r\n    },\r\n    \"hostGoals\": 3,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"09/02/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 2,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match5\",\r\n    \"hostClub\": {\r\n      \"name\": \"SC Hammers\",\r\n      \"imageUrl\": \"sc-hammers.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Wisloka Chicago\",\r\n      \"imageUrl\": \"wisloka.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 2,\r\n    \"date\": \"17/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 1,\r\n    \"field\": \"FIELD_1\"\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "3c2859ab-ea7b-4ffe-872d-177dab5d8d38",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/week/3",
+      "responses": [
+        {
+          "uuid": "794b3d7a-2139-4e05-b5e0-883556782741",
+          "body": "[\r\n  {\r\n    \"name\": \"match1\",\r\n    \"hostClub\": {\r\n      \"name\": \"F.K. Nikola Tesla Chicago\",\r\n      \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"hostGoals\": 4,\r\n    \"guestGoals\": 4,\r\n    \"date\": \"12/06/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 2,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match2\",\r\n    \"hostClub\": {\r\n      \"name\": \"FK Republika Srpska\",\r\n      \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"LionEight\",\r\n      \"imageUrl\": \"lioneight-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 1,\r\n    \"date\": \"01/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match3\",\r\n    \"hostClub\": {\r\n      \"name\": \"Liths\",\r\n      \"imageUrl\": \"liths.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Grasshoppers\",\r\n      \"imageUrl\": \"grasshoppers-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"15/10/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 0,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match4\",\r\n    \"hostClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"F.C. C1 United\",\r\n      \"imageUrl\": \"C1-LOGO-.png\"\r\n    },\r\n    \"hostGoals\": 3,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"09/02/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 2,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match5\",\r\n    \"hostClub\": {\r\n      \"name\": \"SC Hammers\",\r\n      \"imageUrl\": \"sc-hammers.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Wisloka Chicago\",\r\n      \"imageUrl\": \"wisloka.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 2,\r\n    \"date\": \"17/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 1,\r\n    \"field\": \"FIELD_1\"\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "9dd3c84b-518d-423d-abdf-87e38bce276a",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/week/4",
+      "responses": [
+        {
+          "uuid": "bfcb3892-4ce9-4bdd-a47a-185bed3facbd",
+          "body": "[\r\n  {\r\n    \"name\": \"match1\",\r\n    \"hostClub\": {\r\n      \"name\": \"F.K. Nikola Tesla Chicago\",\r\n      \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"hostGoals\": 4,\r\n    \"guestGoals\": 4,\r\n    \"date\": \"12/06/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 2,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match2\",\r\n    \"hostClub\": {\r\n      \"name\": \"FK Republika Srpska\",\r\n      \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"LionEight\",\r\n      \"imageUrl\": \"lioneight-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 1,\r\n    \"date\": \"01/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match3\",\r\n    \"hostClub\": {\r\n      \"name\": \"Liths\",\r\n      \"imageUrl\": \"liths.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Grasshoppers\",\r\n      \"imageUrl\": \"grasshoppers-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"15/10/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 0,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match4\",\r\n    \"hostClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"F.C. C1 United\",\r\n      \"imageUrl\": \"C1-LOGO-.png\"\r\n    },\r\n    \"hostGoals\": 3,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"09/02/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 2,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match5\",\r\n    \"hostClub\": {\r\n      \"name\": \"SC Hammers\",\r\n      \"imageUrl\": \"sc-hammers.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Wisloka Chicago\",\r\n      \"imageUrl\": \"wisloka.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 2,\r\n    \"date\": \"17/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 1,\r\n    \"field\": \"FIELD_1\"\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "812160c2-cac8-4b65-a2fa-2df2fb0d5f4d",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/week/5",
+      "responses": [
+        {
+          "uuid": "6b2d77bd-84d0-4950-a94f-cfd124b77328",
+          "body": "[\r\n  {\r\n    \"name\": \"match1\",\r\n    \"hostClub\": {\r\n      \"name\": \"F.K. Nikola Tesla Chicago\",\r\n      \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"hostGoals\": 4,\r\n    \"guestGoals\": 4,\r\n    \"date\": \"12/06/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 2,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match2\",\r\n    \"hostClub\": {\r\n      \"name\": \"FK Republika Srpska\",\r\n      \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"LionEight\",\r\n      \"imageUrl\": \"lioneight-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 1,\r\n    \"date\": \"01/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match3\",\r\n    \"hostClub\": {\r\n      \"name\": \"Liths\",\r\n      \"imageUrl\": \"liths.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Grasshoppers\",\r\n      \"imageUrl\": \"grasshoppers-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"15/10/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 0,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match4\",\r\n    \"hostClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"F.C. C1 United\",\r\n      \"imageUrl\": \"C1-LOGO-.png\"\r\n    },\r\n    \"hostGoals\": 3,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"09/02/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 2,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match5\",\r\n    \"hostClub\": {\r\n      \"name\": \"SC Hammers\",\r\n      \"imageUrl\": \"sc-hammers.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Wisloka Chicago\",\r\n      \"imageUrl\": \"wisloka.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 2,\r\n    \"date\": \"17/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 1,\r\n    \"field\": \"FIELD_1\"\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "7ca21383-119c-4713-b8bb-ac060a692c0a",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/week/6",
+      "responses": [
+        {
+          "uuid": "ce8382b4-eb27-4c88-bc03-dba8db375aa1",
+          "body": "[\r\n  {\r\n    \"name\": \"match1\",\r\n    \"hostClub\": {\r\n      \"name\": \"F.K. Nikola Tesla Chicago\",\r\n      \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"hostGoals\": 4,\r\n    \"guestGoals\": 4,\r\n    \"date\": \"12/06/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 2,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match2\",\r\n    \"hostClub\": {\r\n      \"name\": \"FK Republika Srpska\",\r\n      \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"LionEight\",\r\n      \"imageUrl\": \"lioneight-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 1,\r\n    \"date\": \"01/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match3\",\r\n    \"hostClub\": {\r\n      \"name\": \"Liths\",\r\n      \"imageUrl\": \"liths.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Grasshoppers\",\r\n      \"imageUrl\": \"grasshoppers-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"15/10/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 0,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match4\",\r\n    \"hostClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"F.C. C1 United\",\r\n      \"imageUrl\": \"C1-LOGO-.png\"\r\n    },\r\n    \"hostGoals\": 3,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"09/02/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 2,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match5\",\r\n    \"hostClub\": {\r\n      \"name\": \"SC Hammers\",\r\n      \"imageUrl\": \"sc-hammers.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Wisloka Chicago\",\r\n      \"imageUrl\": \"wisloka.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 2,\r\n    \"date\": \"17/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 1,\r\n    \"field\": \"FIELD_1\"\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "3a1f8cd3-d334-45d1-99c7-acff394469e2",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/week/7",
+      "responses": [
+        {
+          "uuid": "8b6cd0d4-e38e-45cd-9402-cb7f90cd164a",
+          "body": "[\r\n  {\r\n    \"name\": \"match1\",\r\n    \"hostClub\": {\r\n      \"name\": \"F.K. Nikola Tesla Chicago\",\r\n      \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"hostGoals\": 4,\r\n    \"guestGoals\": 4,\r\n    \"date\": \"12/06/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 2,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match2\",\r\n    \"hostClub\": {\r\n      \"name\": \"FK Republika Srpska\",\r\n      \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"LionEight\",\r\n      \"imageUrl\": \"lioneight-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 1,\r\n    \"date\": \"01/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match3\",\r\n    \"hostClub\": {\r\n      \"name\": \"Liths\",\r\n      \"imageUrl\": \"liths.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Grasshoppers\",\r\n      \"imageUrl\": \"grasshoppers-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"15/10/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 0,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match4\",\r\n    \"hostClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"F.C. C1 United\",\r\n      \"imageUrl\": \"C1-LOGO-.png\"\r\n    },\r\n    \"hostGoals\": 3,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"09/02/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 2,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match5\",\r\n    \"hostClub\": {\r\n      \"name\": \"SC Hammers\",\r\n      \"imageUrl\": \"sc-hammers.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Wisloka Chicago\",\r\n      \"imageUrl\": \"wisloka.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 2,\r\n    \"date\": \"17/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 1,\r\n    \"field\": \"FIELD_1\"\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "c51947a3-6a73-4736-88e8-899f2196027f",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/week/8",
+      "responses": [
+        {
+          "uuid": "ef4b6728-0497-4dd3-8062-5fe391a7d4ff",
+          "body": "[\r\n  {\r\n    \"name\": \"match1\",\r\n    \"hostClub\": {\r\n      \"name\": \"F.K. Nikola Tesla Chicago\",\r\n      \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"hostGoals\": 4,\r\n    \"guestGoals\": 4,\r\n    \"date\": \"12/06/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 2,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match2\",\r\n    \"hostClub\": {\r\n      \"name\": \"FK Republika Srpska\",\r\n      \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"LionEight\",\r\n      \"imageUrl\": \"lioneight-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 1,\r\n    \"date\": \"01/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match3\",\r\n    \"hostClub\": {\r\n      \"name\": \"Liths\",\r\n      \"imageUrl\": \"liths.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Grasshoppers\",\r\n      \"imageUrl\": \"grasshoppers-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"15/10/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 0,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match4\",\r\n    \"hostClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"F.C. C1 United\",\r\n      \"imageUrl\": \"C1-LOGO-.png\"\r\n    },\r\n    \"hostGoals\": 3,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"09/02/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 2,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match5\",\r\n    \"hostClub\": {\r\n      \"name\": \"SC Hammers\",\r\n      \"imageUrl\": \"sc-hammers.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Wisloka Chicago\",\r\n      \"imageUrl\": \"wisloka.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 2,\r\n    \"date\": \"17/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 1,\r\n    \"field\": \"FIELD_1\"\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "59c25aad-2233-448e-a7de-eec1d30289b7",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/week/9",
+      "responses": [
+        {
+          "uuid": "d196bcd1-9ff9-48d9-9c1d-143b47410f67",
+          "body": "[\r\n  {\r\n    \"name\": \"match1\",\r\n    \"hostClub\": {\r\n      \"name\": \"F.K. Nikola Tesla Chicago\",\r\n      \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"hostGoals\": 4,\r\n    \"guestGoals\": 4,\r\n    \"date\": \"12/06/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 2,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match2\",\r\n    \"hostClub\": {\r\n      \"name\": \"FK Republika Srpska\",\r\n      \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"LionEight\",\r\n      \"imageUrl\": \"lioneight-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 1,\r\n    \"date\": \"01/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match3\",\r\n    \"hostClub\": {\r\n      \"name\": \"Liths\",\r\n      \"imageUrl\": \"liths.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Grasshoppers\",\r\n      \"imageUrl\": \"grasshoppers-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"15/10/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 0,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match4\",\r\n    \"hostClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"F.C. C1 United\",\r\n      \"imageUrl\": \"C1-LOGO-.png\"\r\n    },\r\n    \"hostGoals\": 3,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"09/02/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 2,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match5\",\r\n    \"hostClub\": {\r\n      \"name\": \"SC Hammers\",\r\n      \"imageUrl\": \"sc-hammers.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Wisloka Chicago\",\r\n      \"imageUrl\": \"wisloka.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 2,\r\n    \"date\": \"17/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 1,\r\n    \"field\": \"FIELD_1\"\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "7eb41064-062e-4155-b016-8c3ce66cfa6b",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/week/10",
+      "responses": [
+        {
+          "uuid": "12f4168f-bd35-4aa4-86b1-785069fe71c3",
+          "body": "[\r\n  {\r\n    \"name\": \"match1\",\r\n    \"hostClub\": {\r\n      \"name\": \"F.K. Nikola Tesla Chicago\",\r\n      \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"hostGoals\": 4,\r\n    \"guestGoals\": 4,\r\n    \"date\": \"12/06/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 2,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match2\",\r\n    \"hostClub\": {\r\n      \"name\": \"FK Republika Srpska\",\r\n      \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"LionEight\",\r\n      \"imageUrl\": \"lioneight-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 1,\r\n    \"date\": \"01/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match3\",\r\n    \"hostClub\": {\r\n      \"name\": \"Liths\",\r\n      \"imageUrl\": \"liths.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Grasshoppers\",\r\n      \"imageUrl\": \"grasshoppers-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"15/10/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 0,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match4\",\r\n    \"hostClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"F.C. C1 United\",\r\n      \"imageUrl\": \"C1-LOGO-.png\"\r\n    },\r\n    \"hostGoals\": 3,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"09/02/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 2,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match5\",\r\n    \"hostClub\": {\r\n      \"name\": \"SC Hammers\",\r\n      \"imageUrl\": \"sc-hammers.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Wisloka Chicago\",\r\n      \"imageUrl\": \"wisloka.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 2,\r\n    \"date\": \"17/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 1,\r\n    \"field\": \"FIELD_1\"\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "da2cba6b-9746-4958-8e11-70081ffee2fb",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/week/11",
+      "responses": [
+        {
+          "uuid": "96efb55e-04b8-4671-82fe-6aeecaf48a93",
+          "body": "[\r\n  {\r\n    \"name\": \"match1\",\r\n    \"hostClub\": {\r\n      \"name\": \"F.K. Nikola Tesla Chicago\",\r\n      \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"hostGoals\": 4,\r\n    \"guestGoals\": 4,\r\n    \"date\": \"12/06/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 2,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match2\",\r\n    \"hostClub\": {\r\n      \"name\": \"FK Republika Srpska\",\r\n      \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"LionEight\",\r\n      \"imageUrl\": \"lioneight-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 1,\r\n    \"date\": \"01/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match3\",\r\n    \"hostClub\": {\r\n      \"name\": \"Liths\",\r\n      \"imageUrl\": \"liths.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Grasshoppers\",\r\n      \"imageUrl\": \"grasshoppers-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"15/10/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 0,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match4\",\r\n    \"hostClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"F.C. C1 United\",\r\n      \"imageUrl\": \"C1-LOGO-.png\"\r\n    },\r\n    \"hostGoals\": 3,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"09/02/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 2,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match5\",\r\n    \"hostClub\": {\r\n      \"name\": \"SC Hammers\",\r\n      \"imageUrl\": \"sc-hammers.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Wisloka Chicago\",\r\n      \"imageUrl\": \"wisloka.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 2,\r\n    \"date\": \"17/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 1,\r\n    \"field\": \"FIELD_1\"\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "db088293-6f7f-4908-9264-78367142c332",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/week/12",
+      "responses": [
+        {
+          "uuid": "9d562480-77aa-4d9c-b905-7ee3dbb9b948",
+          "body": "[\r\n  {\r\n    \"name\": \"match1\",\r\n    \"hostClub\": {\r\n      \"name\": \"F.K. Nikola Tesla Chicago\",\r\n      \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"hostGoals\": 4,\r\n    \"guestGoals\": 4,\r\n    \"date\": \"12/06/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 2,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match2\",\r\n    \"hostClub\": {\r\n      \"name\": \"FK Republika Srpska\",\r\n      \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"LionEight\",\r\n      \"imageUrl\": \"lioneight-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 1,\r\n    \"date\": \"01/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match3\",\r\n    \"hostClub\": {\r\n      \"name\": \"Liths\",\r\n      \"imageUrl\": \"liths.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Grasshoppers\",\r\n      \"imageUrl\": \"grasshoppers-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"15/10/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 0,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match4\",\r\n    \"hostClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"F.C. C1 United\",\r\n      \"imageUrl\": \"C1-LOGO-.png\"\r\n    },\r\n    \"hostGoals\": 3,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"09/02/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 2,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match5\",\r\n    \"hostClub\": {\r\n      \"name\": \"SC Hammers\",\r\n      \"imageUrl\": \"sc-hammers.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Wisloka Chicago\",\r\n      \"imageUrl\": \"wisloka.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 2,\r\n    \"date\": \"17/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 1,\r\n    \"field\": \"FIELD_1\"\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "0d19f03a-bfc6-4783-96e3-c1463bf7205f",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/week/13",
+      "responses": [
+        {
+          "uuid": "85d390d5-c2a9-4c32-b27d-86f409ff80ae",
+          "body": "[\r\n  {\r\n    \"name\": \"match1\",\r\n    \"hostClub\": {\r\n      \"name\": \"F.K. Nikola Tesla Chicago\",\r\n      \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"hostGoals\": 4,\r\n    \"guestGoals\": 4,\r\n    \"date\": \"12/06/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 2,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match2\",\r\n    \"hostClub\": {\r\n      \"name\": \"FK Republika Srpska\",\r\n      \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"LionEight\",\r\n      \"imageUrl\": \"lioneight-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 1,\r\n    \"date\": \"01/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match3\",\r\n    \"hostClub\": {\r\n      \"name\": \"Liths\",\r\n      \"imageUrl\": \"liths.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Grasshoppers\",\r\n      \"imageUrl\": \"grasshoppers-logo.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"15/10/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 0,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match4\",\r\n    \"hostClub\": {\r\n      \"name\": \"B.H. Ljiljan S.C.\",\r\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"F.C. C1 United\",\r\n      \"imageUrl\": \"C1-LOGO-.png\"\r\n    },\r\n    \"hostGoals\": 3,\r\n    \"guestGoals\": 0,\r\n    \"date\": \"09/02/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 2,\r\n    \"halftimeGuestGoals\": 0,\r\n    \"field\": \"FIELD_1\"\r\n  },\r\n  {\r\n    \"name\": \"match5\",\r\n    \"hostClub\": {\r\n      \"name\": \"SC Hammers\",\r\n      \"imageUrl\": \"sc-hammers.png\"\r\n    },\r\n    \"guestClub\": {\r\n      \"name\": \"Wisloka Chicago\",\r\n      \"imageUrl\": \"wisloka.png\"\r\n    },\r\n    \"hostGoals\": 1,\r\n    \"guestGoals\": 2,\r\n    \"date\": \"17/01/2023\",\r\n    \"matchWeek\": 1,\r\n    \"halftimeHostGoals\": 1,\r\n    \"halftimeGuestGoals\": 1,\r\n    \"field\": \"FIELD_1\"\r\n  }\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "dbbb97e3-3978-40a5-b83a-904e96f98858",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "match/upcoming",
+      "responses": [
+        {
+          "uuid": "40fcc2a4-66e5-4c09-bc85-69603832cc53",
+          "body": "[\n  {\n    \"name\": \"match6\",\n    \"guestClub\": {\n      \"name\": \"F.K. Nikola Tesla Chicago\",\n      \"imageUrl\": \"fk-nikola-tesla-logo.png\"\n    },\n    \"hostClub\": {\n      \"name\": \"B.H. Ljiljan S.C.\",\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\n    },\n    \"hostGoals\": 3,\n    \"guestGoals\": 2,\n    \"date\": \"02/01/2023\",\n    \"matchWeek\": 1,\n    \"halftimeHostGoals\": 1,\n    \"halftimeGuestGoals\": 1,\n    \"field\": \"FIELD_1\"\n  },\n  {\n    \"name\": \"match7\",\n    \"guestClub\": {\n      \"name\": \"FK Republika Srpska\",\n      \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\n    },\n    \"hostClub\": {\n      \"name\": \"LionEight\",\n      \"imageUrl\": \"lioneight-logo.png\"\n    },\n    \"hostGoals\": 2,\n    \"guestGoals\": 2,\n    \"date\": \"15/02/2023\",\n    \"matchWeek\": 1,\n    \"halftimeHostGoals\": 1,\n    \"halftimeGuestGoals\": 1,\n    \"field\": \"FIELD_1\"\n  },\n  {\n    \"name\": \"match8\",\n    \"guestClub\": {\n      \"name\": \"Liths\",\n      \"imageUrl\": \"liths.png\"\n    },\n    \"hostClub\": {\n      \"name\": \"Grasshoppers\",\n      \"imageUrl\": \"grasshoppers-logo.png\"\n    },\n    \"hostGoals\": 2,\n    \"guestGoals\": 4,\n    \"date\": \"11/12/2023\",\n    \"matchWeek\": 1,\n    \"halftimeHostGoals\": 1,\n    \"halftimeGuestGoals\": 2,\n    \"field\": \"FIELD_1\"\n  },\n  {\n    \"name\": \"match9\",\n    \"guestClub\": {\n      \"name\": \"B.H. Ljiljan S.C.\",\n      \"imageUrl\": \"b.h.-ljiljan-sc.png\"\n    },\n    \"hostClub\": {\n      \"name\": \"F.C. C1 United\",\n      \"imageUrl\": \"C1-LOGO-.png\"\n    },\n    \"hostGoals\": 1,\n    \"guestGoals\": 1,\n    \"date\": \"16/06/2023\",\n    \"matchWeek\": 1,\n    \"halftimeHostGoals\": 1,\n    \"halftimeGuestGoals\": 1,\n    \"field\": \"FIELD_1\"\n  },\n  {\n    \"name\": \"match10\",\n    \"guestClub\": {\n      \"name\": \"SC Hammers\",\n      \"imageUrl\": \"sc-hammers.png\"\n    },\n    \"hostClub\": {\n      \"name\": \"Wisloka Chicago\",\n      \"imageUrl\": \"wisloka.png\"\n    },\n    \"hostGoals\": 2,\n    \"guestGoals\": 0,\n    \"date\": \"18/04/2023\",\n    \"matchWeek\": 1,\n    \"halftimeHostGoals\": 1,\n    \"halftimeGuestGoals\": 0,\n    \"field\": \"FIELD_1\"\n  }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "0c488208-d8c7-4191-beb2-0c013b026a61",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/F.K. Nikola Tesla Chicago",
+      "responses": [
+        {
+          "uuid": "95ee3417-c71b-4abd-93f0-aa410fbd939a",
+          "body": "{\n  \"name\": \"F.K. Nikola Tesla Chicago\",\n  \"city\": \"Chicago\",\n  \"founded\": \"2020\",\n  \"social\": {},\n  \"imageUrl\": \"fk-nikola-tesla-logo.png\",\n  \"short\": \"FKNT\",\n  \"matchesPlayed\": [\n    {\n      \"name\": \"match1\",\n      \"hostClub\": {\n        \"name\": \"F.K. Nikola Tesla Chicago\",\n        \"imageUrl\": \"fk-nikola-tesla-logo.png\"\n      },\n      \"guestClub\": {\n        \"name\": \"B.H. Ljiljan S.C.\",\n        \"imageUrl\": \"b.h.-ljiljan-sc.png\"\n      },\n      \"hostGoals\": 4,\n      \"guestGoals\": 4,\n      \"date\": \"12/06/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 2,\n      \"field\": \"FIELD_1\"\n    },\n    {\n      \"name\": \"match6\",\n      \"guestClub\": {\n        \"name\": \"F.K. Nikola Tesla Chicago\",\n        \"imageUrl\": \"fk-nikola-tesla-logo.png\"\n      },\n      \"hostClub\": {\n        \"name\": \"B.H. Ljiljan S.C.\",\n        \"imageUrl\": \"b.h.-ljiljan-sc.png\"\n      },\n      \"hostGoals\": 3,\n      \"guestGoals\": 2,\n      \"date\": \"02/01/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 1,\n      \"field\": \"FIELD_1\"\n    }\n  ],\n  \"matchesWon\": 1,\n  \"matchesDrawn\": 2,\n  \"matchesLost\": 3,\n  \"goalsFor\": 4,\n  \"goalsAgainst\": 5,\n  \"points\": 6,\n  \"squad\": {\n    \"GOALKEEPER\": [\n      {\n        \"firstName\": \"Jose\",\n        \"lastName\": \"Leyva\",\n        \"age\": 21,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"GREEK\",\n        \"countryCode\": \"GR\",\n        \"position\": \"GOALKEEPER\",\n        \"number\": 6\n      }\n    ],\n    \"DEFENDER\": [\n      {\n        \"firstName\": \"Tony\",\n        \"lastName\": \"Castro\",\n        \"age\": 19,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"AFGHAN\",\n        \"countryCode\": \"AF\",\n        \"position\": \"DEFENDER\",\n        \"number\": 15\n      }\n    ],\n    \"MIDFIELDER\": [\n      {\n        \"firstName\": \"David\",\n        \"lastName\": \"Filipovic\",\n        \"age\": 18,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"SERBIAN\",\n        \"countryCode\": \"RS\",\n        \"position\": \"MIDFIELDER\",\n        \"number\": 11\n      }\n    ]\n  }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "02db54d4-071b-4d3a-8e64-cdfed126e777",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "match/match3",
+      "responses": [
+        {
+          "uuid": "480093fe-b625-4cff-afae-a6573a783319",
+          "body": "{\r\n  \"name\": \"match3\",\r\n  \"hostClub\": {\r\n    \"name\": \"Liths\",\r\n    \"imageUrl\": \"liths.png\"\r\n  },\r\n  \"guestClub\": {\r\n    \"name\": \"Grasshoppers\",\r\n    \"imageUrl\": \"grasshoppers-logo.png\"\r\n  },\r\n  \"hostGoals\": 1,\r\n  \"guestGoals\": 0,\r\n  \"date\": \"15/10/2023\",\r\n  \"matchWeek\": 1,\r\n  \"halftimeHostGoals\": 0,\r\n  \"halftimeGuestGoals\": 0,\r\n  \"field\": \"FIELD_1\"\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "25b21e18-44d2-4ecb-8de4-51ad288febd0",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "match/match4",
+      "responses": [
+        {
+          "uuid": "2198b9e5-60ef-4cb9-8aec-739972880ff2",
+          "body": "{\r\n  \"name\": \"match4\",\r\n  \"hostClub\": {\r\n    \"name\": \"B.H. Ljiljan S.C.\",\r\n    \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n  },\r\n  \"guestClub\": {\r\n    \"name\": \"F.C. C1 United\",\r\n    \"imageUrl\": \"C1-LOGO-.png\"\r\n  },\r\n  \"hostGoals\": 3,\r\n  \"guestGoals\": 0,\r\n  \"date\": \"09/02/2023\",\r\n  \"matchWeek\": 1,\r\n  \"halftimeHostGoals\": 2,\r\n  \"halftimeGuestGoals\": 0,\r\n  \"field\": \"FIELD_1\"\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "8613a955-826b-472d-9f06-9e259055c316",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "match/match5",
+      "responses": [
+        {
+          "uuid": "f96aa381-d707-486b-9a78-b7a5cc7021c1",
+          "body": "{\r\n  \"name\": \"match5\",\r\n  \"hostClub\": {\r\n    \"name\": \"SC Hammers\",\r\n    \"imageUrl\": \"sc-hammers.png\"\r\n  },\r\n  \"guestClub\": {\r\n    \"name\": \"Wisloka Chicago\",\r\n    \"imageUrl\": \"wisloka.png\"\r\n  },\r\n  \"hostGoals\": 1,\r\n  \"guestGoals\": 2,\r\n  \"date\": \"17/01/2023\",\r\n  \"matchWeek\": 1,\r\n  \"halftimeHostGoals\": 1,\r\n  \"halftimeGuestGoals\": 1,\r\n  \"field\": \"FIELD_1\"\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "22256e96-b8e5-4e10-a3e3-a5dc67a1c9f7",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "match/match2",
+      "responses": [
+        {
+          "uuid": "7185e6e1-e93a-41e3-9c72-d2b03e5265a2",
+          "body": "{\r\n  \"name\": \"match2\",\r\n  \"hostClub\": {\r\n    \"name\": \"FK Republika Srpska\",\r\n    \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\r\n  },\r\n  \"guestClub\": {\r\n    \"name\": \"LionEight\",\r\n    \"imageUrl\": \"lioneight-logo.png\"\r\n  },\r\n  \"hostGoals\": 1,\r\n  \"guestGoals\": 1,\r\n  \"date\": \"01/01/2023\",\r\n  \"matchWeek\": 1,\r\n  \"halftimeHostGoals\": 1,\r\n  \"halftimeGuestGoals\": 0,\r\n  \"field\": \"FIELD_1\"\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "c0ad3b1d-05d5-4ed7-9fb1-d1202250c040",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/B.H. Ljiljan S.C.",
+      "responses": [
+        {
+          "uuid": "c309eaad-ffa8-4a0a-bfd7-ace886520441",
+          "body": "{\n  \"name\": \"B.H. Ljiljan S.C.\",\n  \"city\": \"Chicago\",\n  \"founded\": \"2017\",\n  \"social\": {},\n  \"imageUrl\": \"b.h.-ljiljan-sc.png\",\n  \"short\": \"BiH\",\n  \"matchesPlayed\": [\n    {\n      \"name\": \"match1\",\n      \"hostClub\": {\n        \"name\": \"F.K. Nikola Tesla Chicago\",\n        \"imageUrl\": \"fk-nikola-tesla-logo.png\"\n      },\n      \"guestClub\": {\n        \"name\": \"B.H. Ljiljan S.C.\",\n        \"imageUrl\": \"b.h.-ljiljan-sc.png\"\n      },\n      \"hostGoals\": 4,\n      \"guestGoals\": 4,\n      \"date\": \"12/06/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 2,\n      \"field\": \"FIELD_1\"\n    },\n    {\n      \"name\": \"match6\",\n      \"guestClub\": {\n        \"name\": \"F.K. Nikola Tesla Chicago\",\n        \"imageUrl\": \"fk-nikola-tesla-logo.png\"\n      },\n      \"hostClub\": {\n        \"name\": \"B.H. Ljiljan S.C.\",\n        \"imageUrl\": \"b.h.-ljiljan-sc.png\"\n      },\n      \"hostGoals\": 3,\n      \"guestGoals\": 2,\n      \"date\": \"02/01/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 1,\n      \"field\": \"FIELD_1\"\n    },\n    {\n      \"name\": \"match9\",\n      \"guestClub\": {\n        \"name\": \"B.H. Ljiljan S.C.\",\n        \"imageUrl\": \"b.h.-ljiljan-sc.png\"\n      },\n      \"hostClub\": {\n        \"name\": \"F.C. C1 United\",\n        \"imageUrl\": \"C1-LOGO-.png\"\n      },\n      \"hostGoals\": 1,\n      \"guestGoals\": 1,\n      \"date\": \"16/06/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 1,\n      \"field\": \"FIELD_1\"\n    },\n    {\n      \"name\": \"match4\",\n      \"hostClub\": {\n        \"name\": \"B.H. Ljiljan S.C.\",\n        \"imageUrl\": \"b.h.-ljiljan-sc.png\"\n      },\n      \"guestClub\": {\n        \"name\": \"F.C. C1 United\",\n        \"imageUrl\": \"C1-LOGO-.png\"\n      },\n      \"hostGoals\": 3,\n      \"guestGoals\": 0,\n      \"date\": \"09/02/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 2,\n      \"halftimeGuestGoals\": 0,\n      \"field\": \"FIELD_1\"\n    }\n  ],\n  \"matchesWon\": 1,\n  \"matchesDrawn\": 2,\n  \"matchesLost\": 3,\n  \"goalsFor\": 4,\n  \"goalsAgainst\": 5,\n  \"points\": 6,\n  \"squad\": {\n    \"GOALKEEPER\": [\n      {\n        \"firstName\": \"Jose\",\n        \"lastName\": \"Leyva\",\n        \"age\": 21,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"GREEK\",\n        \"countryCode\": \"GR\",\n        \"position\": \"GOALKEEPER\",\n        \"number\": 6\n      }\n    ],\n    \"DEFENDER\": [\n      {\n        \"firstName\": \"Tony\",\n        \"lastName\": \"Castro\",\n        \"age\": 19,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"AFGHAN\",\n        \"countryCode\": \"AF\",\n        \"position\": \"DEFENDER\",\n        \"number\": 15\n      }\n    ],\n    \"MIDFIELDER\": [\n      {\n        \"firstName\": \"David\",\n        \"lastName\": \"Filipovic\",\n        \"age\": 18,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"SERBIAN\",\n        \"countryCode\": \"RS\",\n        \"position\": \"MIDFIELDER\",\n        \"number\": 11\n      }\n    ]\n  }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "93a27c66-cfe5-49ae-ab32-ac01e365dbb5",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/SC Hammers",
+      "responses": [
+        {
+          "uuid": "585c4d5d-3976-4dec-a615-a1edce230d2e",
+          "body": "{\n  \"name\": \"SC Hammers\",\n  \"city\": \"Chicago\",\n  \"founded\": \"2014\",\n  \"social\": {\n    \"instagram\": \"https://www.instagram.com/hammers_soccer_club/?igshid=MTg0ZDhmNDA%3D\",\n    \"facebook\": \"https://www.facebook.com/hammerssoccerclub/\"\n  },\n  \"imageUrl\": \"sc-hammers.png\",\n  \"short\": \"SCH\",\n  \"matchesPlayed\": [\n    {\n      \"name\": \"match5\",\n      \"hostClub\": {\n        \"name\": \"SC Hammers\",\n        \"imageUrl\": \"sc-hammers.png\"\n      },\n      \"guestClub\": {\n        \"name\": \"Wisloka Chicago\",\n        \"imageUrl\": \"wisloka.png\"\n      },\n      \"hostGoals\": 1,\n      \"guestGoals\": 2,\n      \"date\": \"17/01/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 1,\n      \"field\": \"FIELD_1\"\n    },\n    {\n      \"name\": \"match10\",\n      \"guestClub\": {\n        \"name\": \"SC Hammers\",\n        \"imageUrl\": \"sc-hammers.png\"\n      },\n      \"hostClub\": {\n        \"name\": \"Wisloka Chicago\",\n        \"imageUrl\": \"wisloka.png\"\n      },\n      \"hostGoals\": 2,\n      \"guestGoals\": 0,\n      \"date\": \"18/04/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 0,\n      \"field\": \"FIELD_1\"\n    }\n  ],\n  \"matchesWon\": 1,\n  \"matchesDrawn\": 2,\n  \"matchesLost\": 3,\n  \"goalsFor\": 4,\n  \"goalsAgainst\": 5,\n  \"points\": 6,\n  \"squad\": {\n    \"GOALKEEPER\": [\n      {\n        \"firstName\": \"Jose\",\n        \"lastName\": \"Leyva\",\n        \"age\": 21,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"GREEK\",\n        \"countryCode\": \"GR\",\n        \"position\": \"GOALKEEPER\",\n        \"number\": 6\n      }\n    ],\n    \"DEFENDER\": [\n      {\n        \"firstName\": \"Tony\",\n        \"lastName\": \"Castro\",\n        \"age\": 19,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"AFGHAN\",\n        \"countryCode\": \"AF\",\n        \"position\": \"DEFENDER\",\n        \"number\": 15\n      }\n    ],\n    \"MIDFIELDER\": [\n      {\n        \"firstName\": \"David\",\n        \"lastName\": \"Filipovic\",\n        \"age\": 18,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"SERBIAN\",\n        \"countryCode\": \"RS\",\n        \"position\": \"MIDFIELDER\",\n        \"number\": 11\n      }\n    ]\n  }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "93b13ec1-42e6-43e6-9a49-f53dfcf77185",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/Wisloka Chicago",
+      "responses": [
+        {
+          "uuid": "385d8130-84dd-469f-8019-85c5835ecb5a",
+          "body": "{\n  \"name\": \"Wisloka Chicago\",\n  \"city\": \"Chicago\",\n  \"founded\": \"2010\",\n  \"social\": {\n    \"instagram\": \"https://www.instagram.com/wislokachicago/?hl=en\",\n    \"facebook\": \"https://www.facebook.com/WislokaChicago/\"\n  },\n  \"imageUrl\": \"wisloka.png\",\n  \"short\": \"WIS\",\n  \"matchesPlayed\": [\n    {\n      \"name\": \"match5\",\n      \"hostClub\": {\n        \"name\": \"SC Hammers\",\n        \"imageUrl\": \"sc-hammers.png\"\n      },\n      \"guestClub\": {\n        \"name\": \"Wisloka Chicago\",\n        \"imageUrl\": \"wisloka.png\"\n      },\n      \"hostGoals\": 1,\n      \"guestGoals\": 2,\n      \"date\": \"17/01/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 1,\n      \"field\": \"FIELD_1\"\n    },\n    {\n      \"name\": \"match10\",\n      \"guestClub\": {\n        \"name\": \"SC Hammers\",\n        \"imageUrl\": \"sc-hammers.png\"\n      },\n      \"hostClub\": {\n        \"name\": \"Wisloka Chicago\",\n        \"imageUrl\": \"wisloka.png\"\n      },\n      \"hostGoals\": 2,\n      \"guestGoals\": 0,\n      \"date\": \"18/04/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 0,\n      \"field\": \"FIELD_1\"\n    }\n  ],\n  \"matchesWon\": 1,\n  \"matchesDrawn\": 2,\n  \"matchesLost\": 3,\n  \"goalsFor\": 4,\n  \"goalsAgainst\": 5,\n  \"points\": 6,\n  \"squad\": {\n    \"GOALKEEPER\": [\n      {\n        \"firstName\": \"Jose\",\n        \"lastName\": \"Leyva\",\n        \"age\": 21,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"GREEK\",\n        \"countryCode\": \"GR\",\n        \"position\": \"GOALKEEPER\",\n        \"number\": 6\n      }\n    ],\n    \"DEFENDER\": [\n      {\n        \"firstName\": \"Tony\",\n        \"lastName\": \"Castro\",\n        \"age\": 19,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"AFGHAN\",\n        \"countryCode\": \"AF\",\n        \"position\": \"DEFENDER\",\n        \"number\": 15\n      }\n    ],\n    \"MIDFIELDER\": [\n      {\n        \"firstName\": \"David\",\n        \"lastName\": \"Filipovic\",\n        \"age\": 18,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"SERBIAN\",\n        \"countryCode\": \"RS\",\n        \"position\": \"MIDFIELDER\",\n        \"number\": 11\n      }\n    ]\n  }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "69c2fb64-1669-412b-93b2-2dd6dae3e624",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/FK Republika Srpska",
+      "responses": [
+        {
+          "uuid": "d9c699b2-b5a6-4f13-9f96-8120010a2e02",
+          "body": "{\n  \"name\": \"FK Republika Srpska\",\n  \"city\": \"Chicago\",\n  \"founded\": \"2003\",\n  \"social\": {\n    \"instagram\": \"https://www.instagram.com/fkrepsrpska/?igshid=YmMyMTA2M2Y%3D\",\n    \"facebook\": \"https://www.facebook.com/fkrepublikasrpskachicago/\"\n  },\n  \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\",\n  \"short\": \"FKRS\",\n  \"matchesPlayed\": [\n    {\n      \"name\": \"match2\",\n      \"hostClub\": {\n        \"name\": \"FK Republika Srpska\",\n        \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\n      },\n      \"guestClub\": {\n        \"name\": \"LionEight\",\n        \"imageUrl\": \"lioneight-logo.png\"\n      },\n      \"hostGoals\": 1,\n      \"guestGoals\": 1,\n      \"date\": \"01/01/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 0,\n      \"field\": \"FIELD_1\"\n    },\n    {\n      \"name\": \"match7\",\n      \"guestClub\": {\n        \"name\": \"FK Republika Srpska\",\n        \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\n      },\n      \"hostClub\": {\n        \"name\": \"LionEight\",\n        \"imageUrl\": \"lioneight-logo.png\"\n      },\n      \"hostGoals\": 2,\n      \"guestGoals\": 2,\n      \"date\": \"15/02/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 1,\n      \"field\": \"FIELD_1\"\n    }\n  ],\n  \"matchesWon\": 1,\n  \"matchesDrawn\": 2,\n  \"matchesLost\": 3,\n  \"goalsFor\": 4,\n  \"goalsAgainst\": 5,\n  \"points\": 6,\n  \"squad\": {\n    \"GOALKEEPER\": [\n      {\n        \"firstName\": \"Jose\",\n        \"lastName\": \"Leyva\",\n        \"age\": 21,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"GREEK\",\n        \"countryCode\": \"GR\",\n        \"position\": \"GOALKEEPER\",\n        \"number\": 6\n      }\n    ],\n    \"DEFENDER\": [\n      {\n        \"firstName\": \"Tony\",\n        \"lastName\": \"Castro\",\n        \"age\": 19,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"AFGHAN\",\n        \"countryCode\": \"AF\",\n        \"position\": \"DEFENDER\",\n        \"number\": 15\n      }\n    ],\n    \"MIDFIELDER\": [\n      {\n        \"firstName\": \"David\",\n        \"lastName\": \"Filipovic\",\n        \"age\": 18,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"SERBIAN\",\n        \"countryCode\": \"RS\",\n        \"position\": \"MIDFIELDER\",\n        \"number\": 11\n      }\n    ]\n  }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "6e29cc47-c929-4936-aa80-9764d0a23a34",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/LionEight",
+      "responses": [
+        {
+          "uuid": "b4fe17b2-59ba-4ad7-847e-d862eeba761b",
+          "body": "{\n  \"name\": \"LionEight\",\n  \"city\": \"McCook\",\n  \"founded\": \"2009\",\n  \"social\": {},\n  \"imageUrl\": \"lioneight-logo.png\",\n  \"short\": \"LE\",\n  \"matchesPlayed\": [\n    {\n      \"name\": \"match2\",\n      \"hostClub\": {\n        \"name\": \"FK Republika Srpska\",\n        \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\n      },\n      \"guestClub\": {\n        \"name\": \"LionEight\",\n        \"imageUrl\": \"lioneight-logo.png\"\n      },\n      \"hostGoals\": 1,\n      \"guestGoals\": 1,\n      \"date\": \"01/01/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 0,\n      \"field\": \"FIELD_1\"\n    },\n    {\n      \"name\": \"match7\",\n      \"guestClub\": {\n        \"name\": \"FK Republika Srpska\",\n        \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\n      },\n      \"hostClub\": {\n        \"name\": \"LionEight\",\n        \"imageUrl\": \"lioneight-logo.png\"\n      },\n      \"hostGoals\": 2,\n      \"guestGoals\": 2,\n      \"date\": \"15/02/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 1,\n      \"field\": \"FIELD_1\"\n    }\n  ],\n  \"matchesWon\": 1,\n  \"matchesDrawn\": 2,\n  \"matchesLost\": 3,\n  \"goalsFor\": 4,\n  \"goalsAgainst\": 5,\n  \"points\": 6,\n  \"squad\": {\n    \"GOALKEEPER\": [\n      {\n        \"firstName\": \"Jose\",\n        \"lastName\": \"Leyva\",\n        \"age\": 21,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"GREEK\",\n        \"countryCode\": \"GR\",\n        \"position\": \"GOALKEEPER\",\n        \"number\": 6\n      }\n    ],\n    \"DEFENDER\": [\n      {\n        \"firstName\": \"Tony\",\n        \"lastName\": \"Castro\",\n        \"age\": 19,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"AFGHAN\",\n        \"countryCode\": \"AF\",\n        \"position\": \"DEFENDER\",\n        \"number\": 15\n      }\n    ],\n    \"MIDFIELDER\": [\n      {\n        \"firstName\": \"David\",\n        \"lastName\": \"Filipovic\",\n        \"age\": 18,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"SERBIAN\",\n        \"countryCode\": \"RS\",\n        \"position\": \"MIDFIELDER\",\n        \"number\": 11\n      }\n    ]\n  }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "0db510c5-d01f-434b-a47d-accd61a8a497",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/Grasshoppers",
+      "responses": [
+        {
+          "uuid": "f1f717f0-2972-44a2-9841-6c2c0eac1ae6",
+          "body": "{\n  \"name\": \"Grasshoppers\",\n  \"city\": \"Chicago\",\n  \"founded\": \"2021\",\n  \"social\": {},\n  \"imageUrl\": \"grasshoppers-logo.png\",\n  \"short\": \"GH\",\n  \"matchesPlayed\": [\n    {\n      \"name\": \"match3\",\n      \"hostClub\": {\n        \"name\": \"Liths\",\n        \"imageUrl\": \"liths.png\"\n      },\n      \"guestClub\": {\n        \"name\": \"Grasshoppers\",\n        \"imageUrl\": \"grasshoppers-logo.png\"\n      },\n      \"hostGoals\": 1,\n      \"guestGoals\": 0,\n      \"date\": \"15/10/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 0,\n      \"halftimeGuestGoals\": 0,\n      \"field\": \"FIELD_1\"\n    },\n    {\n      \"name\": \"match8\",\n      \"guestClub\": {\n        \"name\": \"Liths\",\n        \"imageUrl\": \"liths.png\"\n      },\n      \"hostClub\": {\n        \"name\": \"Grasshoppers\",\n        \"imageUrl\": \"grasshoppers-logo.png\"\n      },\n      \"hostGoals\": 2,\n      \"guestGoals\": 4,\n      \"date\": \"11/12/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 2,\n      \"field\": \"FIELD_1\"\n    }\n  ],\n  \"matchesWon\": 1,\n  \"matchesDrawn\": 2,\n  \"matchesLost\": 3,\n  \"goalsFor\": 4,\n  \"goalsAgainst\": 5,\n  \"points\": 6,\n  \"squad\": {\n    \"GOALKEEPER\": [\n      {\n        \"firstName\": \"Jose\",\n        \"lastName\": \"Leyva\",\n        \"age\": 21,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"GREEK\",\n        \"countryCode\": \"GR\",\n        \"position\": \"GOALKEEPER\",\n        \"number\": 6\n      }\n    ],\n    \"DEFENDER\": [\n      {\n        \"firstName\": \"Tony\",\n        \"lastName\": \"Castro\",\n        \"age\": 19,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"AFGHAN\",\n        \"countryCode\": \"AF\",\n        \"position\": \"DEFENDER\",\n        \"number\": 15\n      }\n    ],\n    \"MIDFIELDER\": [\n      {\n        \"firstName\": \"David\",\n        \"lastName\": \"Filipovic\",\n        \"age\": 18,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"SERBIAN\",\n        \"countryCode\": \"RS\",\n        \"position\": \"MIDFIELDER\",\n        \"number\": 11\n      }\n    ]\n  }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "2f9414f1-4c64-4f68-befc-cfe1e2395456",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/F.C. C1 United",
+      "responses": [
+        {
+          "uuid": "bc5f8094-191a-4f36-a0a3-29c1fa9963e6",
+          "body": "{\n  \"name\": \"F.C. C1 United\",\n  \"city\": \"Chicago\",\n  \"founded\": \"2019\",\n  \"social\": {\n    \"instagram\": \"https://www.instagram.com/c1united/?igshid=YmMyMTA2M2Y%3D\"\n  },\n  \"imageUrl\": \"C1-LOGO-.png\",\n  \"short\": \"C1\",\n  \"matchesPlayed\": [\n    {\n      \"name\": \"match4\",\n      \"hostClub\": {\n        \"name\": \"B.H. Ljiljan S.C.\",\n        \"imageUrl\": \"b.h.-ljiljan-sc.png\"\n      },\n      \"guestClub\": {\n        \"name\": \"F.C. C1 United\",\n        \"imageUrl\": \"C1-LOGO-.png\"\n      },\n      \"hostGoals\": 3,\n      \"guestGoals\": 0,\n      \"date\": \"09/02/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 2,\n      \"halftimeGuestGoals\": 0,\n      \"field\": \"FIELD_1\"\n    },\n    {\n      \"name\": \"match9\",\n      \"guestClub\": {\n        \"name\": \"B.H. Ljiljan S.C.\",\n        \"imageUrl\": \"b.h.-ljiljan-sc.png\"\n      },\n      \"hostClub\": {\n        \"name\": \"F.C. C1 United\",\n        \"imageUrl\": \"C1-LOGO-.png\"\n      },\n      \"hostGoals\": 1,\n      \"guestGoals\": 1,\n      \"date\": \"16/06/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 1,\n      \"field\": \"FIELD_1\"\n    }\n  ],\n  \"matchesWon\": 1,\n  \"matchesDrawn\": 2,\n  \"matchesLost\": 3,\n  \"goalsFor\": 4,\n  \"goalsAgainst\": 5,\n  \"points\": 6,\n  \"squad\": {\n    \"GOALKEEPER\": [\n      {\n        \"firstName\": \"Jose\",\n        \"lastName\": \"Leyva\",\n        \"age\": 21,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"GREEK\",\n        \"countryCode\": \"GR\",\n        \"position\": \"GOALKEEPER\",\n        \"number\": 6\n      }\n    ],\n    \"DEFENDER\": [\n      {\n        \"firstName\": \"Tony\",\n        \"lastName\": \"Castro\",\n        \"age\": 19,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"AFGHAN\",\n        \"countryCode\": \"AF\",\n        \"position\": \"DEFENDER\",\n        \"number\": 15\n      }\n    ],\n    \"MIDFIELDER\": [\n      {\n        \"firstName\": \"David\",\n        \"lastName\": \"Filipovic\",\n        \"age\": 18,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"SERBIAN\",\n        \"countryCode\": \"RS\",\n        \"position\": \"MIDFIELDER\",\n        \"number\": 11\n      }\n    ]\n  }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "a6963fa4-e096-4ce2-9e68-7e7543208525",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "club/Liths",
+      "responses": [
+        {
+          "uuid": "f2cb8545-2332-40f3-9f3f-e884d4a200f8",
+          "body": "{\n  \"name\": \"Liths\",\n  \"city\": \"Chicago\",\n  \"founded\": \"2017\",\n  \"social\": {},\n  \"imageUrl\": \"liths.png\",\n  \"short\": \"LTS\",\n  \"matchesPlayed\": [\n    {\n      \"name\": \"match3\",\n      \"hostClub\": {\n        \"name\": \"Liths\",\n        \"imageUrl\": \"liths.png\"\n      },\n      \"guestClub\": {\n        \"name\": \"Grasshoppers\",\n        \"imageUrl\": \"grasshoppers-logo.png\"\n      },\n      \"hostGoals\": 1,\n      \"guestGoals\": 0,\n      \"date\": \"15/10/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 0,\n      \"halftimeGuestGoals\": 0,\n      \"field\": \"FIELD_1\"\n    },\n    {\n      \"name\": \"match8\",\n      \"guestClub\": {\n        \"name\": \"Liths\",\n        \"imageUrl\": \"liths.png\"\n      },\n      \"hostClub\": {\n        \"name\": \"Grasshoppers\",\n        \"imageUrl\": \"grasshoppers-logo.png\"\n      },\n      \"hostGoals\": 2,\n      \"guestGoals\": 4,\n      \"date\": \"11/12/2023\",\n      \"matchWeek\": 1,\n      \"halftimeHostGoals\": 1,\n      \"halftimeGuestGoals\": 2,\n      \"field\": \"FIELD_1\"\n    }\n  ],\n  \"matchesWon\": 1,\n  \"matchesDrawn\": 2,\n  \"matchesLost\": 3,\n  \"goalsFor\": 4,\n  \"goalsAgainst\": 5,\n  \"points\": 6,\n  \"squad\": {\n    \"GOALKEEPER\": [\n      {\n        \"firstName\": \"Jose\",\n        \"lastName\": \"Leyva\",\n        \"age\": 21,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"GREEK\",\n        \"countryCode\": \"GR\",\n        \"position\": \"GOALKEEPER\",\n        \"number\": 6\n      }\n    ],\n    \"DEFENDER\": [\n      {\n        \"firstName\": \"Tony\",\n        \"lastName\": \"Castro\",\n        \"age\": 19,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"AFGHAN\",\n        \"countryCode\": \"AF\",\n        \"position\": \"DEFENDER\",\n        \"number\": 15\n      }\n    ],\n    \"MIDFIELDER\": [\n      {\n        \"firstName\": \"David\",\n        \"lastName\": \"Filipovic\",\n        \"age\": 18,\n        \"imageUrl\": \"string\",\n        \"nationality\": \"SERBIAN\",\n        \"countryCode\": \"RS\",\n        \"position\": \"MIDFIELDER\",\n        \"number\": 11\n      }\n    ]\n  }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "af95e9c7-fabc-4e7b-9054-0d6a564a6413",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "player/Jose-Leyva",
+      "responses": [
+        {
+          "uuid": "8a818458-ac69-4e15-a62b-b7d9c4925a2f",
+          "body": "{\r\n  \"firstName\": \"Jose\",\r\n  \"lastName\": \"Leyva\",\r\n  \"age\": 21,\r\n  \"imageUrl\": \"playerImage.png\",\r\n  \"nationality\": \"AFGHAN\",\r\n  \"countryCode\": \"GR\",\r\n  \"position\": \"GOALKEEPER\",\r\n  \"club\": {\r\n    \"name\": \"string\",\r\n    \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n  }\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "c2839d4c-b5c7-497b-8629-af2ee1b4c4dd",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "player/Tony-Castro",
+      "responses": [
+        {
+          "uuid": "7f3880df-8653-4812-83d4-9c5a32e6f4b1",
+          "body": "{\r\n  \"firstName\": \"Tony\",\r\n  \"lastName\": \"Castro\",\r\n  \"age\": 19,\r\n  \"imageUrl\": \"playerImage.png\",\r\n  \"nationality\": \"AFGHAN\",\r\n  \"countryCode\": \"AF\",\r\n  \"position\": \"DEFENDER\",\r\n  \"club\": {\r\n    \"name\": \"string\",\r\n    \"imageUrl\": \"grasshoppers-logo.png\"\r\n  }\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "9122db82-70be-45d2-a74a-c34f91dab6a0",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "match/match6",
+      "responses": [
+        {
+          "uuid": "0a10f445-e0e6-42ab-8435-c9511277e069",
+          "body": "{\r\n  \"name\": \"match6\",\r\n  \"guestClub\": {\r\n    \"name\": \"F.K. Nikola Tesla Chicago\",\r\n    \"imageUrl\": \"fk-nikola-tesla-logo.png\"\r\n  },\r\n  \"hostClub\": {\r\n    \"name\": \"B.H. Ljiljan S.C.\",\r\n    \"imageUrl\": \"b.h.-ljiljan-sc.png\"\r\n  },\r\n  \"hostGoals\": 3,\r\n  \"guestGoals\": 2,\r\n  \"date\": \"02/01/2023\",\r\n  \"matchWeek\": 1,\r\n  \"halftimeHostGoals\": 1,\r\n  \"halftimeGuestGoals\": 1,\r\n  \"field\": \"FIELD_1\"\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "84fc381f-ab89-4b9f-ac34-c4824cf8bd4a",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "match/match7",
+      "responses": [
+        {
+          "uuid": "bbba686e-aee0-4ccd-9329-de84d1ebf6f9",
+          "body": "{\r\n  \"name\": \"match7\",\r\n  \"guestClub\": {\r\n    \"name\": \"FK Republika Srpska\",\r\n    \"imageUrl\": \"FK-REPUBLIKA-SRPSKA.png\"\r\n  },\r\n  \"hostClub\": {\r\n    \"name\": \"LionEight\",\r\n    \"imageUrl\": \"lioneight-logo.png\"\r\n  },\r\n  \"hostGoals\": 2,\r\n  \"guestGoals\": 2,\r\n  \"date\": \"15/02/2023\",\r\n  \"matchWeek\": 1,\r\n  \"halftimeHostGoals\": 1,\r\n  \"halftimeGuestGoals\": 1,\r\n  \"field\": \"FIELD_1\"\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "1859e31f-9df3-4a01-8ee2-7fd0b423bf03",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "match/match8",
+      "responses": [
+        {
+          "uuid": "c507a8b3-3758-4776-974b-e84a9bf23a3c",
+          "body": "{\r\n  \"name\": \"match8\",\r\n  \"guestClub\": {\r\n    \"name\": \"Liths\",\r\n    \"imageUrl\": \"liths.png\"\r\n  },\r\n  \"hostClub\": {\r\n    \"name\": \"Grasshoppers\",\r\n    \"imageUrl\": \"grasshoppers-logo.png\"\r\n  },\r\n  \"hostGoals\": 2,\r\n  \"guestGoals\": 4,\r\n  \"date\": \"11/12/2023\",\r\n  \"matchWeek\": 1,\r\n  \"halftimeHostGoals\": 1,\r\n  \"halftimeGuestGoals\": 2,\r\n  \"field\": \"FIELD_1\"\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "61603ab2-5d4f-4611-b195-0461f2227779",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "match/match9",
+      "responses": [
+        {
+          "uuid": "8d958a7a-341f-436b-9d50-f18bbd7add82",
+          "body": "{\n  \"name\": \"match9\",\n  \"guestClub\": {\n    \"name\": \"B.H. Ljiljan S.C.\",\n    \"imageUrl\": \"b.h.-ljiljan-sc.png\"\n  },\n  \"hostClub\": {\n    \"name\": \"F.C. C1 United\",\n    \"imageUrl\": \"C1-LOGO-.png\"\n  },\n  \"hostGoals\": 1,\n  \"guestGoals\": 1,\n  \"date\": \"16/06/2023\",\n  \"matchWeek\": 1,\n  \"halftimeHostGoals\": 1,\n  \"halftimeGuestGoals\": 1,\n  \"field\": \"FIELD_1\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "235a02e5-c7fa-459e-b78a-337e67ec623e",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "match/match10",
+      "responses": [
+        {
+          "uuid": "39813dfe-7a3e-4dfa-97f8-3cfed172a4a7",
+          "body": "{\n  \"name\": \"match10\",\n  \"guestClub\": {\n    \"name\": \"SC Hammers\",\n    \"imageUrl\": \"sc-hammers.png\"\n  },\n  \"hostClub\": {\n    \"name\": \"Wisloka Chicago\",\n    \"imageUrl\": \"wisloka.png\"\n  },\n  \"hostGoals\": 2,\n  \"guestGoals\": 0,\n  \"date\": \"18/04/2023\",\n  \"matchWeek\": 1,\n  \"halftimeHostGoals\": 1,\n  \"halftimeGuestGoals\": 0,\n  \"field\": \"FIELD_1\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "0cbd4a49-7054-48f7-820b-e1f4d915ce31"
+    },
+    {
+      "type": "route",
+      "uuid": "d310ed49-3740-4756-9beb-18f0a5cf6fd7"
+    },
+    {
+      "type": "route",
+      "uuid": "fdaf9d57-3fc4-43c6-830c-ea6baf60324c"
+    },
+    {
+      "type": "route",
+      "uuid": "22256e96-b8e5-4e10-a3e3-a5dc67a1c9f7"
+    },
+    {
+      "type": "route",
+      "uuid": "02db54d4-071b-4d3a-8e64-cdfed126e777"
+    },
+    {
+      "type": "route",
+      "uuid": "25b21e18-44d2-4ecb-8de4-51ad288febd0"
+    },
+    {
+      "type": "route",
+      "uuid": "8613a955-826b-472d-9f06-9e259055c316"
+    },
+    {
+      "type": "route",
+      "uuid": "38fdd653-8c07-4b69-90f4-56eaf14d9133"
+    },
+    {
+      "type": "route",
+      "uuid": "dbbb97e3-3978-40a5-b83a-904e96f98858"
+    },
+    {
+      "type": "route",
+      "uuid": "25c61e37-5bcb-4135-a6d6-776e6fa20099"
+    },
+    {
+      "type": "route",
+      "uuid": "33e18956-58ca-4ac4-8d4c-e6ee23b36a5f"
+    },
+    {
+      "type": "route",
+      "uuid": "3c2859ab-ea7b-4ffe-872d-177dab5d8d38"
+    },
+    {
+      "type": "route",
+      "uuid": "9dd3c84b-518d-423d-abdf-87e38bce276a"
+    },
+    {
+      "type": "route",
+      "uuid": "812160c2-cac8-4b65-a2fa-2df2fb0d5f4d"
+    },
+    {
+      "type": "route",
+      "uuid": "7ca21383-119c-4713-b8bb-ac060a692c0a"
+    },
+    {
+      "type": "route",
+      "uuid": "3a1f8cd3-d334-45d1-99c7-acff394469e2"
+    },
+    {
+      "type": "route",
+      "uuid": "c51947a3-6a73-4736-88e8-899f2196027f"
+    },
+    {
+      "type": "route",
+      "uuid": "59c25aad-2233-448e-a7de-eec1d30289b7"
+    },
+    {
+      "type": "route",
+      "uuid": "7eb41064-062e-4155-b016-8c3ce66cfa6b"
+    },
+    {
+      "type": "route",
+      "uuid": "da2cba6b-9746-4958-8e11-70081ffee2fb"
+    },
+    {
+      "type": "route",
+      "uuid": "db088293-6f7f-4908-9264-78367142c332"
+    },
+    {
+      "type": "route",
+      "uuid": "0d19f03a-bfc6-4783-96e3-c1463bf7205f"
+    },
+    {
+      "type": "route",
+      "uuid": "0c488208-d8c7-4191-beb2-0c013b026a61"
+    },
+    {
+      "type": "route",
+      "uuid": "c0ad3b1d-05d5-4ed7-9fb1-d1202250c040"
+    },
+    {
+      "type": "route",
+      "uuid": "93a27c66-cfe5-49ae-ab32-ac01e365dbb5"
+    },
+    {
+      "type": "route",
+      "uuid": "93b13ec1-42e6-43e6-9a49-f53dfcf77185"
+    },
+    {
+      "type": "route",
+      "uuid": "69c2fb64-1669-412b-93b2-2dd6dae3e624"
+    },
+    {
+      "type": "route",
+      "uuid": "6e29cc47-c929-4936-aa80-9764d0a23a34"
+    },
+    {
+      "type": "route",
+      "uuid": "0db510c5-d01f-434b-a47d-accd61a8a497"
+    },
+    {
+      "type": "route",
+      "uuid": "2f9414f1-4c64-4f68-befc-cfe1e2395456"
+    },
+    {
+      "type": "route",
+      "uuid": "a6963fa4-e096-4ce2-9e68-7e7543208525"
+    },
+    {
+      "type": "route",
+      "uuid": "7cf43ab7-1254-4812-a043-e209a21c41fb"
+    },
+    {
+      "type": "route",
+      "uuid": "af95e9c7-fabc-4e7b-9054-0d6a564a6413"
+    },
+    {
+      "type": "route",
+      "uuid": "c2839d4c-b5c7-497b-8629-af2ee1b4c4dd"
+    },
+    {
+      "type": "route",
+      "uuid": "9122db82-70be-45d2-a74a-c34f91dab6a0"
+    },
+    {
+      "type": "route",
+      "uuid": "84fc381f-ab89-4b9f-ac34-c4824cf8bd4a"
+    },
+    {
+      "type": "route",
+      "uuid": "1859e31f-9df3-4a01-8ee2-7fd0b423bf03"
+    },
+    {
+      "type": "route",
+      "uuid": "61603ab2-5d4f-4611-b195-0461f2227779"
+    },
+    {
+      "type": "route",
+      "uuid": "235a02e5-c7fa-459e-b78a-337e67ec623e"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [
+    {
+      "uuid": "4fbd1933-12e5-4938-b718-d035e36dae30",
+      "id": "ckug",
+      "name": "Users",
+      "documentation": "",
+      "value": "[\n  {{#repeat 50}}\n  {\n    \"id\": \"{{faker 'datatype.uuid'}}\",\n    \"username\": \"{{faker 'internet.userName'}}\"\n  }\n  {{/repeat}}\n]"
+    }
+  ]
+}
