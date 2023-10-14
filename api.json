@@ -75,7 +75,7 @@
       "responses": [
         {
           "uuid": "276ab003-a509-4e1e-8cb1-33df157f60ce",
-          "body": "{\r\n  \"firstName\": \"David\",\r\n  \"lastName\": \"Filipovic\",\r\n  \"age\": 18,\r\n  \"imageUrl\": \"playerImage.png\",\r\n  \"nationality\": \"AFGHAN\",\r\n  \"countryCode\": \"RS\",\r\n  \"position\": \"MIDFIELDER\",\r\n  \"club\": {\r\n    \"name\": \"string\",\r\n    \"imageUrl\": \"fk-nikola-tesla-logo\"\r\n  }\r\n}",
+          "body": "{\r\n  \"firstName\": \"David\",\r\n  \"lastName\": \"Filipovic\",\r\n  \"age\": 18,\r\n  \"imageUrl\": \"playerImage.png\",\r\n  \"nationality\": \"AFGHAN\",\r\n  \"countryCode\": \"RS\",\r\n  \"position\": \"MIDFIELDER\",\r\n  \"club\": {\r\n    \"name\": \"F.K. Nikola Tesla Chicago\",\r\n    \"imageUrl\": \"fk-nikola-tesla-logo\"\r\n  }\r\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
@@ -945,7 +945,7 @@
       "responses": [
         {
           "uuid": "8a818458-ac69-4e15-a62b-b7d9c4925a2f",
-          "body": "{\r\n  \"firstName\": \"Jose\",\r\n  \"lastName\": \"Leyva\",\r\n  \"age\": 21,\r\n  \"imageUrl\": \"playerImage.png\",\r\n  \"nationality\": \"AFGHAN\",\r\n  \"countryCode\": \"GR\",\r\n  \"position\": \"GOALKEEPER\",\r\n  \"club\": {\r\n    \"name\": \"string\",\r\n    \"imageUrl\": \"b.h.-ljiljan-sc\"\r\n  }\r\n}",
+          "body": "{\r\n  \"firstName\": \"Jose\",\r\n  \"lastName\": \"Leyva\",\r\n  \"age\": 21,\r\n  \"imageUrl\": \"playerImage.png\",\r\n  \"nationality\": \"AFGHAN\",\r\n  \"countryCode\": \"GR\",\r\n  \"position\": \"GOALKEEPER\",\r\n  \"club\": {\r\n    \"name\": \"B.H. Ljiljan S.C.\",\r\n    \"imageUrl\": \"b.h.-ljiljan-sc\"\r\n  }\r\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
@@ -974,7 +974,7 @@
       "responses": [
         {
           "uuid": "7f3880df-8653-4812-83d4-9c5a32e6f4b1",
-          "body": "{\r\n  \"firstName\": \"Tony\",\r\n  \"lastName\": \"Castro\",\r\n  \"age\": 19,\r\n  \"imageUrl\": \"playerImage.png\",\r\n  \"nationality\": \"AFGHAN\",\r\n  \"countryCode\": \"AF\",\r\n  \"position\": \"DEFENDER\",\r\n  \"club\": {\r\n    \"name\": \"string\",\r\n    \"imageUrl\": \"grasshoppers-logo\"\r\n  }\r\n}",
+          "body": "{\r\n  \"firstName\": \"Tony\",\r\n  \"lastName\": \"Castro\",\r\n  \"age\": 19,\r\n  \"imageUrl\": \"playerImage.png\",\r\n  \"nationality\": \"AFGHAN\",\r\n  \"countryCode\": \"AF\",\r\n  \"position\": \"DEFENDER\",\r\n  \"club\": {\r\n    \"name\": \"Grasshoppers\",\r\n    \"imageUrl\": \"grasshoppers-logo\"\r\n  }\r\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
